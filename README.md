@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/NoCodeMonkey/material-ui-remote-submit/dev-status.svg)](https://david-dm.org/NoCodeMonkey/material-ui-remote-submit?type=dev) [![Greenkeeper badge](https://badges.greenkeeper.io/NoCodeMonkey/material-ui-remote-submit.svg)](https://greenkeeper.io/)
 
 ## Description
-Personal Portfolio Web Application built with [Bootstrap](https://getbootstrap.com), [Node.js](https://nodejs.org), [Express](https://expressjs.com) and [Marko](https://markojs.com).
+
 
 ## Get Started
 
