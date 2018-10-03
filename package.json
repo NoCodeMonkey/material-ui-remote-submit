@@ -1,21 +1,21 @@
 {
   "name": "material-ui-remote-submit",
   "version": "0.1.0",
-  "author": "Ryan Leeder", 
+  "author": "Ryan Leeder",
   "description": "A Material-UI, Redux-Form Remote Submit Example",
   "license": "GNU GPLv3",
   "keywords": [
     "material-ui",
     "redux-form",
     "react",
-    "create-react-app-typescript""
+    "create-react-app-typescript"
   ],
   "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nocodemonkey/material-ui-remote-submit.git"
   },
-  "homepage": "https://github.com/nocodemonkey/material-ui-remote-submit",
+  "homepage": "https://nocodemonkey.github.io/material-ui-remote-submit",
   "bugs": {
     "url": "https://github.com/nocodemonkey/material-ui-remote-submit/issues"
   },
@@ -34,7 +34,9 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/classnames": "2.2.6",
@@ -45,6 +47,7 @@
     "@types/react-redux": "6.0.9",
     "@types/redux": "3.6.31",
     "@types/redux-form": "7.4.8",
+    "gh-pages": "^2.0.0",
     "typescript": "3.1.1"
   }
 }
