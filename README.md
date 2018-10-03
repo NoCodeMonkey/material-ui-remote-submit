@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/NoCodeMonkey/material-ui-remote-submit/dev-status.svg)](https://david-dm.org/NoCodeMonkey/material-ui-remote-submit?type=dev) [![Greenkeeper badge](https://badges.greenkeeper.io/NoCodeMonkey/material-ui-remote-submit.svg)](https://greenkeeper.io/)
 
 ## Description
-
+A [redux-form](https://redux-form.com/) [remote submit](https://redux-form.com/7.4.2/examples/remotesubmit/) example using [material-ui](https://material-ui.com/) written in TypeScript.
 
 ## Get Started
 
