@@ -15,8 +15,8 @@ A [redux-form](https://redux-form.com/) [remote submit](https://redux-form.com/7
 ```
   git clone https://github.com/NoCodeMonkey/material-ui-remote-submit.git
   cd material-ui-remote-submit
-  npm install
-  npm run start
+  yarn install or npm install
+  yarn run start or npm run start
 ```
 
 ## Authors
