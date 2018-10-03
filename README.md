@@ -10,6 +10,8 @@
 ## Description
 A [redux-form](https://redux-form.com/) [remote submit](https://redux-form.com/7.4.2/examples/remotesubmit/) example using [material-ui](https://material-ui.com/) written in TypeScript. Run the demo this app running at https://nocodemonkey.github.io/material-ui-remote-submit/.
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). For information on how to perform common tasks, please see the [User Guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
 ## Get Started
 
 ```
