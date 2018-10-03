@@ -1,7 +1,24 @@
 {
-  "name": "remotesubmittest",
+  "name": "material-ui-remote-submit",
   "version": "0.1.0",
+  "author": "Ryan Leeder", 
+  "description": "A Material-UI, Redux-Form Remote Submit Example",
+  "license": "GNU GPLv3",
+  "keywords": [
+    "material-ui",
+    "redux-form",
+    "react",
+    "create-react-app-typescript""
+  ],
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocodemonkey/material-ui-remote-submit.git"
+  },
+  "homepage": "https://github.com/nocodemonkey/material-ui-remote-submit",
+  "bugs": {
+    "url": "https://github.com/nocodemonkey/material-ui-remote-submit/issues"
+  },
   "dependencies": {
     "@material-ui/core": "3.1.2",
     "@material-ui/icons": "3.0.1",
