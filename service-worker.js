@@ -15,7 +15,7 @@ importScripts("/material-ui-remote-submit/workbox-v3.6.2/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/material-ui-remote-submit/workbox-v3.6.2"});
 
 importScripts(
-  "/material-ui-remote-submit/precache-manifest.542e59522f3f00d63ed79f4b16687f46.js"
+  "/material-ui-remote-submit/precache-manifest.34f3f6e8d81a6eda3f71f98dc6a218a2.js"
 );
 
 workbox.clientsClaim();
