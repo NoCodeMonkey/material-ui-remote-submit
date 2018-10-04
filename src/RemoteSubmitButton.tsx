@@ -276,6 +276,7 @@ class RemoteSubmitButton extends React.Component<RemoteSubmitButtonPropTypes, Re
       isClearSubmitErrors,
       isReset,
       pristine,
+      resetDuration,
       resetForm,
       submitFailed,
       submitForm,

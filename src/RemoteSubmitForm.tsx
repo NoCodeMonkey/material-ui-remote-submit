@@ -1,7 +1,8 @@
-import { Omit, TextField, Typography } from '@material-ui/core';
+import { IconButton, InputAdornment, Omit, TextField, Typography } from '@material-ui/core';
 import { Theme } from '@material-ui/core/styles';
 import withStyles, { WithStyles } from '@material-ui/core/styles/withStyles';
 import { TextFieldProps as MuiTextFieldProps } from '@material-ui/core/TextField';
+import { Visibility, VisibilityOff } from '@material-ui/icons';
 import * as React from 'react';
 import { Field, InjectedFormProps, reduxForm, WrappedFieldProps } from 'redux-form';
 import submit from './Submit';
@@ -89,38 +90,66 @@ export interface RemoteSubmitFormData {
   password: string;
 }
 
+export interface RemoteSubmitFormState {
+  showPassword: boolean;
+}
+
 type RemoteSubmitFormProps = InjectedFormProps<RemoteSubmitFormData> & WithStyles<typeof style>;
 
-const RemoteSubmitForm: React.SFC<RemoteSubmitFormProps> = ({
-  classes,
-  error,
-  handleSubmit
-}) => {
-  return (
-    <form onSubmit={handleSubmit}>
-      <Field
-        name="username"
-        type="text"
-        classes={classes}
-        component={renderTextField}
-        label="Username"
-        fullWidth={true}
-      />
-      <Field
-        name="password"
-        type="password"
-        classes={classes}
-        component={renderTextField}
-        label="Password"
-        fullWidth={true}
-      />
-      {error && <Typography variant="headline" gutterBottom={true} align="center" className={classes.error}>{error}</Typography>}
-      <Typography variant="body2" gutterBottom={true} align="center" className={classes.info}>
-      No submit button in the form. The submit button below is a separate unlinked component.
-      </Typography>
-    </form>
-  );
-};
+class RemoteSubmitForm extends React.Component<RemoteSubmitFormProps, RemoteSubmitFormState> {
+  constructor(props: RemoteSubmitFormProps) {
+    super(props);
+
+    this.handleClickShowPassword = this.handleClickShowPassword.bind(this);
+
+    this.state = {
+      showPassword: false
+    };
+  }
+
+  public handleClickShowPassword = () => {
+    this.setState(state => ({ showPassword: !state.showPassword }));
+  }
+
+  public render() {
+    const { classes, error, handleSubmit } = this.props;
+
+    return (
+      <form onSubmit={handleSubmit}>
+        <Field
+          name="username"
+          type="text"
+          classes={classes}
+          component={renderTextField}
+          label="Username"
+          fullWidth={true}
+        />
+        <Field
+          name="password"
+          type={this.state.showPassword ? 'text' : 'password'}
+          classes={classes}
+          component={renderTextField}
+          label="Password"
+          fullWidth={true}
+          InputProps={{
+            endAdornment: <InputAdornment position="end">
+              <IconButton
+                aria-label="Toggle password visibility"
+                onClick={this.handleClickShowPassword}
+              >
+                {this.state.showPassword ? <VisibilityOff /> : <Visibility />}
+              </IconButton>
+            </InputAdornment>
+          }}
+        />
+        {error && <Typography variant="headline" gutterBottom={true} align="center" className={classes.error}>{error}</Typography>}
+        <Typography variant="body2" gutterBottom={true} align="center" className={classes.info}>
+        No submit button in the form. The submit button below is a separate unlinked component.
+        </Typography>
+      </form>
+    );
+  }
+}
 
 export default reduxForm({
   form: 'remoteSubmit', // a unique identifier for this form

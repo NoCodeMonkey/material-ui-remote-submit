@@ -82,7 +82,7 @@ class App extends React.Component<WithStyles<typeof styles>> {
                 <Grid item={true} xs={8}>
                   <RemoteSubmitForm />
                 </Grid>
-                <Grid item={true} xs={8} alignContent="center" alignItems="center" justify="center">
+                <Grid item={true} xs={8}>
                   <RemoteSubmitButton formName="remoteSubmit" variant="contained" isReset={true}
                   isClearSubmitErrors={true} tooltip="Click to remotely submit the form">
                     Submit
