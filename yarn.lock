@@ -857,16 +857,16 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@16.4.18":
-  version "16.4.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.18.tgz#2e28a2e7f92d3fa7d6a65f2b73275c3e3138a13d"
+"@types/react@16.7.1":
+  version "16.7.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.1.tgz#ae76b653d1d7d26b32186bba33c39745316bcdc4"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/redux-form@7.4.11":
-  version "7.4.11"
-  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-7.4.11.tgz#4fe344399d167378f8701c748ae6e36c196a235c"
+"@types/redux-form@7.4.12":
+  version "7.4.12"
+  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-7.4.12.tgz#2afb0615e3b7417d460ab14a4802ede4a98f9c79"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0 || ^4.0.0"
