@@ -832,9 +832,9 @@
     csstype "^2.0.0"
     indefinite-observable "^1.0.1"
 
-"@types/node@10.12.16":
-  version "10.12.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.16.tgz#006a67ab106673f4c0d5928b7bcb5072e336a148"
+"@types/node@10.12.17":
+  version "10.12.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.17.tgz#7040565b2c93d59325a68fa69073e754a7eda93a"
 
 "@types/prop-types@*":
   version "15.5.6"
