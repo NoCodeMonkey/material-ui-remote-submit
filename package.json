@@ -28,7 +28,7 @@
     "react-redux": "5.1.1",
     "react-scripts-ts": "4.0.8",
     "redux": "4.0.1",
-    "redux-form": "7.4.2"
+    "redux-form": "8.1.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
