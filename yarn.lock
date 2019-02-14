@@ -882,9 +882,9 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/redux-form@7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-7.5.1.tgz#45d7a092525b467a3681b4dd8d63a2407c834998"
+"@types/redux-form@7.5.2":
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-7.5.2.tgz#7f304cbfa03475a40a150eea85d88172c282916f"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0 || ^4.0.0"
