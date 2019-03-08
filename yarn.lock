@@ -861,9 +861,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-redux@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.0.2.tgz#ac3726a94b64581224e9cfea1fb90aa2d72614ea"
+"@types/react-redux@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.0.3.tgz#b8dc3faa954b7f28e4b0209bcf9209b45251ed6b"
   dependencies:
     "@types/hoist-non-react-statics" "*"
     "@types/react" "*"
