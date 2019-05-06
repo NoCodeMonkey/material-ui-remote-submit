@@ -895,9 +895,9 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/redux-form@7.5.3":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-7.5.3.tgz#19acc3338b540bb88b0ff2bf25258453a20ed89f"
+"@types/redux-form@8.1.1":
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-8.1.1.tgz#88b743d8bbbc67e45548e67f4260c0db00cf74dc"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0 || ^4.0.0"
@@ -7540,9 +7540,9 @@ reduce-css-calc@^2.0.0:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
 
-redux-form@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-8.1.0.tgz#087b39eaa96b6f5cc0764a30eca10e0459884cce"
+redux-form@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-8.2.0.tgz#87667f39a7eebd4c6ed368817481c1ece80c8890"
   dependencies:
     "@babel/runtime" "^7.2.0"
     es6-error "^4.1.1"
