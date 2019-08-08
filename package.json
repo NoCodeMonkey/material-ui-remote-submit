@@ -47,7 +47,7 @@
     "@types/react-redux": "7.1.1",
     "@types/redux": "3.6.31",
     "@types/redux-form": "8.1.4",
-    "gh-pages": "2.1.0",
+    "gh-pages": "2.1.1",
     "typescript": "3.5.3"
   },
   "browserslist": [
