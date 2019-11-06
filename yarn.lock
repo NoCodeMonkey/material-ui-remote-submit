@@ -911,9 +911,9 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/redux-form@8.1.9":
-  version "8.1.9"
-  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-8.1.9.tgz#8e8800541ce191f7145b8ddf3d926ed5dfeb42d3"
+"@types/redux-form@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@types/redux-form/-/redux-form-8.2.0.tgz#e177fb1b837c11ec4c9eb66b4f5e833cdb4bef3f"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0 || ^4.0.0"
