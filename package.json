@@ -20,11 +20,11 @@
     "url": "https://github.com/nocodemonkey/material-ui-remote-submit/issues"
   },
   "dependencies": {
-    "@material-ui/core": "4.8.1",
+    "@material-ui/core": "4.8.3",
     "@material-ui/icons": "4.5.1",
     "classnames": "2.2.6",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "react-redux": "7.1.3",
     "react-scripts-ts": "4.0.8",
     "redux": "4.0.5",
@@ -47,7 +47,7 @@
     "@types/react-redux": "7.1.5",
     "@types/redux": "3.6.31",
     "@types/redux-form": "8.2.0",
-    "gh-pages": "2.1.1",
+    "gh-pages": "2.2.0",
     "typescript": "3.7.4"
   },
   "browserslist": [
